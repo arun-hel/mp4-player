@@ -13,6 +13,7 @@ const Video = () => {
     aspectRatio: "16:9",
     controls: true,
     responsive: true,
+    playbackRates: [0.7, 1.0, 1.5, 2.0],
     fluid: true,
     sources: [
       {
